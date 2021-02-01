@@ -35,25 +35,11 @@ section {
     background-color: #eee;
 }
 
-@keyframes slideDownFade {
-    0% {
-        margin-top: -20px;
-        opacity: 0;
-    }
-
-    100% {
-        margin-top: 0;
-        opacity: 1;
-    }
-}
-
-.main:target img {
-    animation: slideDownFade .2s forwards;
-}
-
 .row img {
     margin: 5px;
+    transform: scale(1) rotate(0);
 }
+
 
 .contact {
     min-height: 800px;
