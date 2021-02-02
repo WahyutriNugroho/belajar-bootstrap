@@ -14,29 +14,6 @@
   </head>
   <body>
     <!-- navbar --> 
-    <!-- <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark navbar fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#home" class="page-scroll">Belajar Bootstrap</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <class class="collapse navbar-collapse" id="navbarSupportedContent">
-          
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about" class="page-scroll">Tentang</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#main" class="page-scroll">Yang Dipelajari</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact" class="page-scroll">Contact</a>
-            </li>
-        </class>
-    </nav> -->
-    <!-- akhir navbar-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar fixed-top">
       <a class="navbar-brand page-scroll" href="#">Belajar Bootstrap</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,7 +36,8 @@
         </ul>
       </div>
     </nav>
-    
+        
+    <!-- akhir navbar-->
       <!-- jumbotron -->
     <div class="jumbotron text-center">
         <img src="img/main/main.jpg" alt="err" >
@@ -124,40 +102,40 @@
           </div>
         </div>
 
-        <div class="row">
-          <div class="col-sm-12 ">
-            <form>
+        <div class="container h-100">
+          <div class="row h-100 justify-content-center align-items-center">
+            <form class="col-6">
               <div class="form-group">
                 <label for="nama">Nama</label>
                 <input type="text" class="form-control" id="nama" placeholder="masukkan nama">
               </div>
-
+  
               <div class="form-group">
                 <label for="email">Email</label>
                 <input type="email" class="form-control" id="email" placeholder="masukkan email">
               </div>
-
+  
               <div class="form-group">
                 <label for="telp">No Telepon</label>
                 <input type="tel" class="form-control" id="telp" placeholder="masukkan no telp">
               </div>
-
+  
               <div class="form-group">
                 <label for="form-control">Pilih kategori</label>
-                <select  class="form-control" id="form-control">
+                <select class="form-control" id="form-control">
                   <option>----pilih kategori----</option>
                   <option>Web Design</option>
                   <option>Web Development</option>
                 </select>
               </div>
-
+  
               <div class="form-group">
                 <label for="textarea">pesan</label>
                 <textarea class="form-control" id="textarea" rows="3"></textarea>
               </div>
-
+  
               <button type="submit" class="btn btn-primary">Kirim Pesan</button>
-            </form>
+            </form>   
           </div>
         </div>
       </div>

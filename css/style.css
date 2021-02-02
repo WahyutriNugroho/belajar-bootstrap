@@ -35,9 +35,11 @@ section {
     background-color: #eee;
 }
 
-.row img {
+.main .row img:hover {
     margin: 5px;
-    transform: scale(1) rotate(0);
+    transform: scale(1) rotate(2deg);
+    transition: .5s;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, .2);
 }
 
 
